@@ -24,31 +24,33 @@
 }
 
 .firstLine .col1Row1 {
-  width: 31px;
-  height: 31px;
+  width: 23.2px;
+  height: 23.2px;
   border-radius: 100%;
   border: solid 18.4px #101010;
 }
 
 .col3Row1 {
+  /*Col3 Row1*/
   width: 60px;
   height: 60px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
 .firstLine .col3Row1 .egal1Col3Row1 {
-  width: 60px;
-  height: 18.4px;
+  width: 18.4px;
+  height: 60px;
   background-color: #101010;
+  transform: rotate(180deg);
 }
 
 .firstLine .col3Row1 .egal2Col3Row1 {
-  width: 60px;
-  height: 18.4px;
+  width: 18.4px;
+  height: 60px;
   background-color: #101010;
-}
+  transform: rotate(180deg);
+} /*FIN col3 row1*/
 
 /*--------Fin de la ligne 1------------*/
 
@@ -56,24 +58,56 @@
 
 .secondLine {
   display: flex;
+  justify-content: space-between;
 }
 
-.secondLine .col1Row2 {
+.col1Row2 {
+  /*col1 row2*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 60px;
   height: 60px;
-  background-color: yellow;
 }
 
-.secondLine .col2Row2 {
+.secondLine .col1Row2 .egal1Col1Row2 {
   width: 60px;
-  height: 60px;
-  background-color: black;
+  height: 18.4px;
+  background-color: #101010;
 }
+
+.secondLine .col1Row2 .egal2Col1Row2 {
+  width: 60px;
+  height: 18.4px;
+  background-color: #101010;
+} /*FIN col1 row2*/
+
+.col2Row2 {
+  /*col2 row2*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60px;
+}
+.secondLine .col2Row2 .egal1Col2Row2 {
+  width: 18.4px;
+  height: 60px;
+  background-color: #101010;
+  transform: rotate(180deg);
+}
+
+.secondLine .col2Row2 .egal2Col2Row2 {
+  width: 18.4px;
+  height: 60px;
+  background-color: #101010;
+  transform: rotate(180deg);
+} /*FIN col2 row2*/
 
 .secondLine .col3Row2 {
-  width: 60px;
-  height: 60px;
-  background-color: purple;
+  width: 23.2px;
+  height: 23.2px;
+  border-radius: 100%;
+  border: solid 18.4px #101010;
 }
 
 /*--------Fin de la ligne 2------------*/
