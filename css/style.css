@@ -1,3 +1,12 @@
+@keyframes animLogo {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 .all {
   display: flex;
   justify-content: center;
@@ -28,6 +37,10 @@
   height: 23.2px;
   border-radius: 100%;
   border: solid 18.4px #101010;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  animation: animLogo 0.9s ease-out;
 }
 
 .col3Row1 {
@@ -43,6 +56,10 @@
   height: 60px;
   background-color: #101010;
   transform: rotate(180deg);
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  animation: animLogo 2.7s ease-out;
 }
 
 .firstLine .col3Row1 .egal2Col3Row1 {
@@ -50,6 +67,9 @@
   height: 60px;
   background-color: #101010;
   transform: rotate(180deg);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  animation: animLogo 2.7s ease-out;
 } /*FIN col3 row1*/
 
 /*--------Fin de la ligne 1------------*/
@@ -74,12 +94,18 @@
   width: 60px;
   height: 18.4px;
   background-color: #101010;
+  margin-top: 5px;
+  margin-right: 5px;
+  animation: animLogo 1.8s ease-out;
 }
 
 .secondLine .col1Row2 .egal2Col1Row2 {
   width: 60px;
   height: 18.4px;
   background-color: #101010;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  animation: animLogo 1.8s ease-out;
 } /*FIN col1 row2*/
 
 .col2Row2 {
@@ -94,6 +120,10 @@
   height: 60px;
   background-color: #101010;
   transform: rotate(180deg);
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  animation: animLogo 2.7s ease-out;
 }
 
 .secondLine .col2Row2 .egal2Col2Row2 {
@@ -101,6 +131,10 @@
   height: 60px;
   background-color: #101010;
   transform: rotate(180deg);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  animation: animLogo 2.7s ease-out;
 } /*FIN col2 row2*/
 
 .secondLine .col3Row2 {
@@ -108,6 +142,10 @@
   height: 23.2px;
   border-radius: 100%;
   border: solid 18.4px #101010;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  animation: animLogo 0.9s ease-out;
 }
 
 /*--------Fin de la ligne 2------------*/
@@ -126,6 +164,9 @@
   height: 60px;
   background-color: #101010;
   transform: rotate(180deg);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  animation: animLogo 2.7s ease-out;
 }
 
 .firstLine .col1Row3 .egal2Col1Row3 {
@@ -133,6 +174,10 @@
   height: 60px;
   background-color: #101010;
   transform: rotate(180deg);
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  animation: animLogo 2.7s ease-out;
 } /*FIN col1 row3*/
 
 .col3Row3 {
@@ -148,12 +193,16 @@
   width: 60px;
   height: 18.4px;
   background-color: #101010;
+  margin-top: 5px;
+  animation: animLogo 1.8s ease-out;
 }
 
 .firstLine .col3Row3 .egal2Col3Row3 {
   width: 60px;
   height: 18.4px;
   background-color: #101010;
+  margin-bottom: 5px;
+  animation: animLogo 1.8s ease-out;
 } /*FIN col3 row3*/
 
 /*--------Fin de la ligne 3------------*/
