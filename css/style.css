@@ -6,16 +6,18 @@
     opacity: 100%;
   }
 }
-
 .all {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 320px;
   height: 568px;
-  /*1er probleme : j'ai eu du mal à center le bloc global avec flexbox
+  /*problemes / Notes : j'ai eu du mal à center le bloc global avec flexbox
     (il était restreint à sa div et de ce fait,
-     j'ai du reprendre les dimensions du portable)*/
+     j'ai du reprendre les dimensions du portable)
+     -> Au lieu d'avoir un responsive fluide, je dois mettre des tailles d'écran
+     -> Après test, le fait d'adapter la taille comme je l'ai fait ci-dessus semble faire buguer le responsive
+       puisque le logo ne se centre pas.*/
 }
 
 .global {
