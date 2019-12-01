@@ -42,6 +42,10 @@
   justify-content: space-between;
   transform: rotate(90deg);
   margin-bottom: 10px;
+  border-width: 18px 0;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
 }
 
 /*--------Fin de la ligne 1------------*/
@@ -60,6 +64,10 @@
   width: 60px;
   height: 60px;
   margin-right: 10px;
+  border-width: 18px 0;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
 }
 
 .col2Row2 {
@@ -69,6 +77,10 @@
   width: 60px;
   height: 60px;
   transform: rotate(90deg);
+  border-width: 18px 0;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
 }
 
 .secondLine .col3Row2 {
@@ -90,6 +102,10 @@
   width: 60px;
   transform: rotate(90deg);
   margin-top: 10px;
+  border-width: 18px 0;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
 }
 
 .col3Row3 {
@@ -100,6 +116,10 @@
   height: 60px;
   margin-top: 10px;
   margin-left: 10px;
+  border-width: 18px 0;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
 }
 
 /*--------Fin de la ligne 3------------*/
